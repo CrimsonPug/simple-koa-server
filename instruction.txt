@@ -1,0 +1,29 @@
+Here is how you set it up
+
+First unzip the file, once that's done, open the terminal and change directory into 
+$cd (wherever the file is)
+$cd devChallenge
+$cd project2
+$npm install
+
+Once everything is installed, run the application by running the command below
+
+$node server.js
+
+or if you have nodemon installed, run this code below
+
+$nodemon server.js
+
+The application should start in http://localhost:3005/. If there is an error, it is likely there is 
+another application running on that port/server. 
+
+The next step is to open a new tab in your browser, copy paste http://localhost:3005/ into your search tab you will see 
+the temperature of your office on the browser. If you check your terminal there is a more detailed 
+description of the weather in an Object.
+
+To change the location, go to server.js and change the value 'var location = 'wherever you want'.
+
+
+If there is any question let me know!
+
+
